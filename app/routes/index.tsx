@@ -1,8 +1,8 @@
 import { Link, NavLink } from "@remix-run/react";
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-
+    <div className="grid place-items-center h-screen w-full">
+      <h1 className="text-center text-gray-600 text-3xl font-bold">Task Taking app in RemixJS</h1>
     </div>
   );
 }
