@@ -18,7 +18,7 @@ export default function About() {
                             <div className="flex border-white border-b-2">
                                 <h1 className="text-xl text-white font-medium text-left">#{index + 1}</h1>
                                 <div className="grow"></div>
-                                <h1 className="text-md text-white font-medium text-left">{new Date(val.id).toLocaleDateString([], { day: "numeric", "month": "short", "year": "numeric", "hour": "2-digit", "minute": "2-digit", })}</h1>
+                                <h1 className="text-md text-white font-medium text-left">{new Date(val.id).toLocaleDateString("en-US", { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" })}</h1>
                             </div>
                             <div className="text-xl text-white font-medium text-left">{val.title}</div>
                             <div className="text-lg text-white font-medium text-left">{val.description}</div>
